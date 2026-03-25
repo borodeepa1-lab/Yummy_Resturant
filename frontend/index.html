@@ -4,20 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESTURANT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!--Heading-->
+<!--Underline-->
     <u><h1>YUMMY RESTURANT</h1></u>
+<!--Image insertion-->
     <img src="../assets/2.jpeg" width="250" title="Yummy RESTURANT"/>
-    <!-- <img src="https://www.shutterstock.com/image-photo/background-dishes-restaurant-kitchen-photo-260nw-2496341543.jpg"/> -->
-    <i><p>A visit to a yummy restaurant is always a delightful experience filled with delicious flavors and a warm atmosphere. The moment you step inside, the inviting aroma of freshly cooked food makes you feel hungry and excited.</p>
-    <p>The menu offers a variety of mouth-watering dishes, from spicy starters to rich main courses and sweet desserts</p>Each dish is beautifully presented and cooked to perfection, satisfying both the eyes and taste buds. <p>The friendly staff and cozy environment make the dining experience even more enjoyable. Whether you go with friends or family, a yummy restaurant is the perfect place to relax, enjoy good food, and create happy memories.
-    </p></i>
-
+<!-- <img src="https://www.shutterstock.com/image-photo/background-dishes-restaurant-kitchen-photo-260nw-2496341543.jpg"/> -->
+<!--Paragraph-->
+<!--Italic-->
+    <i><p>A visit to a yummy restaurant is always a delightful experience filled with delicious flavors and a warm atmosphere. The moment you step inside, the inviting aroma of freshly cooked food makes you feel hungry and excited.</p></i>
     <u><h1>MENU</h1></u>
-    <ol>
-        
-    </ol>
+    <!-- <u><h3>Straters</h3></u> -->
+<!--Ordered List-->
+<!--Bold-->
+<!--Break-->
+    <!-- <ol>
+    <li><b>Avacodo Toast : 500/-</b></li>
+    <li><b>Bruschetta : 650/-</b></li>
+    <li><b>Crispy Calamari</b></li>
+    <li><b>Cornish Crap</b></li>
+    </ol> -->
+
+<!--Unordered List-->
+    <!-- <u><h3>Beverages</h3></u>
+    <ul>
+        <li>Coco Cola</li>
+        <li>Lemon Soda</li>
+        <li>Hot Chocolate</li>
+        <li>Coffee</li>
+        <li>Assam Tea</li>
+    </ul> -->
+<!--Anchor Tag Insertion-->
+    <!-- <a href="https://youtu.be/N8XBGuHrzro?si=Wnk8hGcwpv8vOypj"> click here</a> -->
+ <table border="3">
+    <caption>My Dish Menu</caption>
+    <tr>
+        <th rowspan="2">Dish</th>
+        <th rowspan="2">Description</th>
+        <th colspan="3">Price</th>
+    </tr>
+    <tr>
+        <td>half</td>
+        <td>full</td>
+        </tr>
+        <tr>
+            <td>Momo</td>
+            <td>Chicken</td>
+            <td>50</td>
+            <td>100</td>
+        </tr>
+    <tr>
+        <td rowspan="2">Roll</td>
+        <td>Veg</td>
+        <td>50</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Non-veg</td>
+        <td>50</td>        
+        <td>100</td>        
+    </tr>
+    <tr>
+        <td rowspan="2">Chowmin</td>
+        <td>Veg</td>
+        <td>70</td>
+        <td>120</td>
+    </tr>
+    <tr>
+        <td>Non-Veg</td>
+        <td>100</td>
+        <td>200</td>
+    </tr>
+ </table> 
+ <U><h1>ORDER ONLINE</h1></U>
+ <form>
+    <u><h3>Registration Form</h3></u>
+    <label>Name</label>
+    <input type="text" placeholder="Enter your number">
+    <br/>
+    <label>Phone</label>
+    <input type="tel" placeholder="+91 XXXXXXXXXX">
+    <br/>
+    <label>Email</label>
+    <input type="email" placeholder="youremail@xxxx.com">
+    <br/>
+    <label>Password</label>
+    <input type="password" placeholder="Enter atleast 6 characters">
+    <br/>
+    <label>Address</label>
+    <input type="text">
+    <br/>
+    <label>District</label>
+    <input type="text">
+    <label>State</label>
+    <input type="text">
+    <label>Pincode</label>
+    <input type="number">
+    <br/>
+    
+    <u><h3>Order Form</h3></u>
+    <label>Order ID</label>
+    <input type="number">
+    <br/>
+    <label>Select Store</label>
+    <select>
+        <option>select store location</option>
+        <option>Guwahati</option>
+        <option>Rangia</option>
+        <option>Barama</option>
+        <option>Tihu</option>
+        <option>Pathsala</option>
+    </select>
+    <br/>
+    <table border="1">
+        <tr>
+            <th>Starters</th>
+            <th>Main Course</th>
+            <th>Beverages</th>
+            <th>Desserts</th>
+            <th>Complimentries</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="dish">Panner Fry</td>
+            <td><input type="checkbox" name="main-course">Chicken curry</td>
+            <td><input type="checkbox" name="bev">Coke</td>
+            <td><input type="checkbox" name="dessert"> Chocolate</td>
+            <td><input type="radio" name="comp">salad </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="dish">Panner tikka</td>
+            <td><input type="checkbox" name="main-course">Chicken handi</td>
+            <td><input type="checkbox" name="bev">sprite</td>
+            <td><input type="checkbox" name="dessert"> cake</td>
+            <td><input type="radio" name="comp">raita </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="dish">alu fry</td>
+            <td><input type="checkbox" name="main-course">Chicken homemade</td>
+            <td><input type="checkbox" name="bev">lemon soda</td>
+            <td><input type="checkbox" name="dessert"> cheesecake</td>
+            <td><input type="radio" name="comp">achar</td>
+        </tr>
+    </table>
+    <br/>
+    <label>Write review</label>
+    <br/>
+    <textarea placeholder="write full review"></textarea>
+    <br/>
+    <button type="submit">Order <img src=" https://cdn-icons-png.flaticon.com/512/5161/5161308.png " width="20px" alt="" title="" class="img-small"></button>
+    
+    <button type="reset">Cancel <img src="   https://cdn-icons-png.flaticon.com/512/4347/4347434.png " width="20px" alt="" title="" class="img-small">
+ </button>
 
 
-    </body>
+ 
+ </form>
+ 
+</body>
 </html>
